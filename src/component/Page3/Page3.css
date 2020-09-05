@@ -1,0 +1,10 @@
+.app-page3 {
+    grid-area: content;
+    background-color: darkcyan;
+  }
+
+.center-page3 { 
+    display: flex;	
+    justify-content: center;
+    margin-top: 100px;
+}

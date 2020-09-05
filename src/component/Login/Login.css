@@ -1,0 +1,10 @@
+.app-login {
+    grid-area: content;
+    background-color: darkcyan;
+  }
+
+.center-login { 
+    display: flex;	
+    justify-content: center;
+    margin-top: 100px;
+}
