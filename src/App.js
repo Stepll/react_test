@@ -1,23 +1,18 @@
 import React from 'react';
 import './App.css';
+import Content from './component/Content/Content';
+import Header from './component/Header/Header';
+import Navigation from './component/Navigation/Navigation';
+import Page2 from './component/Page2/Page2';
 
 
 const App = () => {
   return (
-    <div className = 'app-wrapper'>
-      <header className = 'app-header'>
-      </header>
-      <nav className = 'app-navigation'>
-        <div>
-          <a> page 1 </a>
-        </div>
-        <div>
-          <a> page 2 </a>
-        </div>
-      </nav>
-      <div className = 'app-content'>
-        456
-      </div>
+    <div className='app-wrapper'>
+      {/* <Content /> */}
+      <Page2 />
+      <Header />
+      <Navigation />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.app-content {
+    grid-area: content;
+    background-color: darkcyan;
+  }
+
+.center { 
+    display: flex;	
+    justify-content: center;
+    margin-top: 100px;
+}
