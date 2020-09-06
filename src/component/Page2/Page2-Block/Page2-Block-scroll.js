@@ -4,7 +4,7 @@ import Page2_Block from './Page2-Block';
 
 const Page2_Block_Scroll = (props) => {
     return (
-        <scroll-page className='sp2' id={props.Number + "scroll2"}><Page2_Block id={props.id} text="text" /></scroll-page>
+        <scroll-page className='sp2' id={props.Number + "scroll2"}><Page2_Block id={props.id} text="text" check={props.check} /></scroll-page>
     );
 }
 
