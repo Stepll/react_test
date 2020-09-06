@@ -1,11 +1,21 @@
 import React from 'react';
 import './Content.css';
 import ButtonNumber from './Window/ButtonNumber';
+import Block from './Window/Block';
 
-const ButtonsWindow = (probs) => {
+const ButtonsWindow = (props) => {
     const inputs = [];
-    for (let i = 0; i < probs.Number; i++) {
-        inputs.push(<ButtonNumber Number={i + 1} />);
+    for (let i = 0; i < props.Number; i++) {
+        let tmp = i + 1;
+        inputs.push(<ButtonNumber page={"#" + tmp + "scroll"} Number={tmp} />);
+    }
+    return inputs;
+}
+
+const BlocksWindow = (props) => {
+    const inputs = [];
+    for (let i = 0; i < props.Number; i++) {
+        inputs.push(<Block Number={i + 1} />);
     }
     return inputs;
 }
@@ -31,6 +41,10 @@ const Content = () => {
             <div hidden class='windowdiv' id='window'>
                 <div class='inwindow' >
                     <ButtonsWindow Number={50} />
+                    <br/>
+                    <scroll-container>
+                        <BlocksWindow  Number={50} />
+                    </scroll-container>
                     <button class='buttoncancel' onClick={ClickCancel} > cancel </button>
                     <button class='buttonok' onClick={ClickOk} > ok </button>
                 </div>

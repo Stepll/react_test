@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
 
-const Header = (probs) => {
+const Header = (props) => {
     return (
         <header className='app-header'>
             <div class='textheader'>
-                {probs.title}
+                {props.title}
             </div>
         </header>
     );

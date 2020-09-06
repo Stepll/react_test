@@ -5,7 +5,6 @@ const Page2 = () => {
     return (
         <div className='app-page2'>
             <div class = "center-page2">
-                <button>open window 2</button>
             </div>
         </div>
     );

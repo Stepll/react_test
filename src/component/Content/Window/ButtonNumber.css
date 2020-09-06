@@ -1,7 +1,8 @@
-.window-button button {
+.window-button a {
     background-color: white;
     float: left;
     width: 2%;
     height: 30px;
     font-size: 50%;
+    text-decoration: none;
   }

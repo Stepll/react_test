@@ -1,10 +1,10 @@
 import React from 'react';
 import './ButtonNumber.css';
 
-const ButtonNumber = (probs) => {
+const ButtonNumber = (props) => {
     return (
         <div className='window-button'>
-            <button>{probs.Number}</button>
+            <a href={props.page}>{props.Number}</a>
         </div>
     );
 }
