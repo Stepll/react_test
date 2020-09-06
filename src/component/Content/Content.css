@@ -8,3 +8,28 @@
     justify-content: center;
     margin-top: 100px;
 }
+
+.windowdiv {
+  position: fixed;
+  left: 10%;
+  top: 20%;
+  height:60%;
+  width:80%;
+  background-color: thistle;
+}
+
+.inwindow {
+  padding: 10px;
+}
+
+.buttoncancel {
+  position: fixed;
+  bottom: 22%;
+  right: 17%;
+}
+
+.buttonok {
+  position: fixed;
+  bottom: 22%;
+  right: 12%;
+}

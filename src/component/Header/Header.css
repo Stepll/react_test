@@ -2,3 +2,7 @@
     grid-area: header;
     background-color: brown;
   }
+
+.textheader {
+  padding-left: 30%;
+}

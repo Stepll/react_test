@@ -17,7 +17,7 @@ const App = (props) => {
         <Route path='/page1' component={Page1} />
         <Route path='/page2' component={Page2} />
         <Route path='/page3' component={Page3} />
-        <Header />
+        <Header title='page' />
         <Navigation />
       </div>
     </BrowserRouter>

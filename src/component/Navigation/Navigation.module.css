@@ -1,0 +1,15 @@
+.app_navigation {
+    grid-area: navigation;
+    background-color: coral;
+  }
+
+.item a {
+  color: white;
+  text-decoration: none;
+  padding-right: 50%;
+}
+
+.item a.nav_active {
+  background-color: lawngreen;
+  color: black;
+}
