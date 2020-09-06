@@ -3,7 +3,7 @@ import './Block.css';
 
 const Block = (props) => {
     return (
-        <scroll-page className='window-element' id={props.Number + "scroll"}>{props.Number} text</scroll-page>
+        <scroll-page className='sp1' id={props.Number + "scroll"}>{props.Number} text</scroll-page>
         
     );
 }

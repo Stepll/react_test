@@ -1,7 +1,5 @@
-
-
-scroll-page {
+.sp2 scroll-page{
     display: flex;
     align-items: center;
-    height: 20%;
+    height: 10%;
   }
